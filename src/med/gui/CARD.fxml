@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="360.0" prefWidth="408.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="med.gui.CARDController">
+   <children>
+      <Pane layoutX="32.0" layoutY="22.0" prefHeight="319.0" prefWidth="350.0" style="-fx-background-color: rosyBrown;">
+         <children>
+            <TextField fx:id="tfcomm1" layoutX="26.0" layoutY="228.0" prefHeight="88.0" prefWidth="200.0" />
+            <Label fx:id="labeltexte1" layoutX="30.0" layoutY="164.0" prefHeight="60.0" prefWidth="192.0" text="Label" />
+            <DatePicker fx:id="dComm1" layoutX="228.0" layoutY="164.0" prefHeight="26.0" prefWidth="115.0" />
+            <Button fx:id="ajoutercomm1" layoutX="251.0" layoutY="202.0" mnemonicParsing="false" onAction="#ajout" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: black;" text="ajouter " textFill="#f7f1f1" />
+            <Button fx:id="modifiercomm1" layoutX="251.0" layoutY="236.0" mnemonicParsing="false" onAction="#modify" prefHeight="26.0" prefWidth="70.0" style="-fx-background-color: black;" text="modifier" textFill="#f4efef" />
+            <ImageView fx:id="imageView1" fitHeight="150.0" fitWidth="200.0" layoutX="26.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="supprimercomm1" layoutX="251.0" layoutY="272.0" mnemonicParsing="false" onAction="#supprimer" style="-fx-background-color: black;" text="supprimer" textFill="#f2efef" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
